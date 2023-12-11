@@ -1,0 +1,99 @@
+<div class="card mx-auto" style="max-width:400px">
+    <div class="card-header bg-transparent">
+        <div class="navbar navbar-expand  p-0">
+            <ul class="navbar-nav me-auto align-items-center">
+                <li class="nav-item">
+                    <a  class="nav-link">
+                        <div
+                            style="width:50px; height: 50px; border-radius: 50%; border: 2px solid #e84118; padding: 2px">
+                            <img src="https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg"
+                                class="img-fluid rounded-circle" alt="">
+                            
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a  class="nav-link">{{nome}}</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-body">
+        <div class="navbar navbar-expand me-auto list-group">
+            
+                <ul *ngFor="let user of listContacts" class="navbar-nav me-auto align-items-center" (click)="chatUser(user)" style="margin-bottom: 10px;">
+                    <li class="nav-item">
+                        <a class="nav-link">
+                            <div
+                                style="width:50px; height: 50px; border-radius: 50%; border: 2px solid #e84118; padding: 2px">
+                                <img src="{{user.img}}"
+                                    class="img-fluid rounded-circle" alt="">
+                                
+                            </div>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link">{{user.to}}</a>
+                    </li>
+                </ul>
+            
+            <!-- <ul class="navbar-nav me-auto align-items-center" style="margin-bottom: 10px;">
+                <li class="nav-item">
+                    <a href="#!" class="nav-link">
+                        <div
+                            style="width:50px; height: 50px; border-radius: 50%; border: 2px solid #e84118; padding: 2px">
+                            <img src="https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg"
+                                class="img-fluid rounded-circle" alt="">
+                            
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#!" class="nav-link">Armando</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav me-auto align-items-center"style="margin-bottom: 10px;" >
+                <li class="nav-item">
+                    <a href="#!" class="nav-link">
+                        <div style="width:50px; height: 50px; border-radius: 50%; border: 2px solid #e84118; padding: 2px">
+                            <img src="https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg"
+                                class="img-fluid rounded-circle" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#!" class="nav-link">Sol</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav me-auto align-items-center" style="margin-bottom: 10px;">
+                <li class="nav-item">
+                    <a href="#!" class="nav-link">
+                        <div
+                            style="width:50px; height: 50px; border-radius: 50%; border: 2px solid #e84118; padding: 2px">
+                            <img src="https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg"
+                                class="img-fluid rounded-circle" alt="">
+                    
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#!" class="nav-link">Armando</a>
+                </li>
+            </ul>
+            <ul class="navbar-nav me-auto  align-items-center" style="margin-bottom: 10px;">
+                <li class="nav-item">
+                    <a href="#!" class="nav-link">
+                        <div
+                            style="width:50px; height: 50px; border-radius: 50%; border: 2px solid #e84118; padding: 2px">
+                            <img src="https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg"
+                                class="img-fluid rounded-circle" alt="">
+                        </div>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a href="#!" class="nav-link">Teste</a>
+                </li>
+            </ul> -->
+        </div>
+    </div>
+</div>

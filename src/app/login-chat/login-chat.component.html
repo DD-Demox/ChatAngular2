@@ -1,0 +1,7 @@
+<form class="mx-auto" style="max-width:400px">
+    <div class="form-group">
+      <label  for="nome">Nome</label>
+      <input [(ngModel)]="nome" [ngModelOptions]="{standalone: true}" class="form-control" id="nome" aria-describedby="nome" placeholder="Nome">    
+    </div>
+    <button type="submit" class="btn btn-primary" (click)='logar()'>Submit</button>
+</form>
