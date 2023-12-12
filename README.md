@@ -11,6 +11,6 @@ json-server --watch database/database.json
 rodar o servidor json q simula um bd
 
 node socket.io/server.js
-  para rodar o servidor de chat(ainda nao implementado)
+  para rodar o servidor de chat
 
 utilize Roberto e Clara como usuarios para testar
