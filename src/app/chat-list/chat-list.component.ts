@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { MessageService } from '../message.service';
 import { ActivatedRoute, Route, Router } from '@angular/router';
+import { ChatserviceService } from '../chatservice.service';
 
 @Component({
   selector: 'app-chat-list',
@@ -9,7 +10,11 @@ import { ActivatedRoute, Route, Router } from '@angular/router';
 })
 export class ChatListComponent {
 
-  constructor(private msg_service:MessageService, private route:ActivatedRoute,private router:Router){}
+  constructor(private msg_service:MessageService, 
+    private route:ActivatedRoute,
+    private router:Router,
+    private chat:ChatserviceService)
+    {}
 
   listContacts:any=[]
   nome:string
