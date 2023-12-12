@@ -10,9 +10,10 @@ export class ChatserviceService {
 
   constructor() {}
 
-  public message:Observable<Message>
+  
 
   socket = io('http://localhost:4500');
+  
 
   public sendMessage(message:Message){
     this.socket.emit('message',message)
@@ -26,4 +27,10 @@ export class ChatserviceService {
     });
     return observable;
   }
+
+  public connect(nome){
+    this.socket.emit("salvarId",nome)
+  }
+
+  
 }

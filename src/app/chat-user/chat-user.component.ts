@@ -39,7 +39,10 @@ export class ChatUserComponent {
     this.loadMessages();
     this.scrollToBottom();
     this.chatservice.getNewMessage().subscribe((msg:Message)=>{
-      this.listMessages.push(msg)
+      if((msg.from===this.nome||msg.from===this.nomeTo) && (msg.to ===this.nome ||msg.to ===this.nomeTo)){
+        this.listMessages.push(msg)
+      }
+      console.log(msg)
       
     }) 
   }

@@ -21,8 +21,9 @@ export class ChatListComponent {
 
   ngOnInit(){
     this.route.params.subscribe(params => this.nome = params['nome']);
-    console.log(this.nome)
+    this.chat.connect(this.nome)
     this.loadContacts()
+    
   }
 
   loadContacts(){
