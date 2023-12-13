@@ -21,16 +21,12 @@ export class ChatListComponent {
 
   ngOnInit(){
     this.route.params.subscribe(params => this.nome = params['nome']);
-    this.chat.connect(this.nome)
     this.loadContacts()
-    
   }
 
   loadContacts(){
     var lookup = {};
     var fullList:any=[]
-
-
 
     this.msg_service.getContatos(this.nome).subscribe((data:{})=>{
       fullList = data
@@ -43,7 +39,7 @@ export class ChatListComponent {
           this.listContacts.push(item);
         }
       }
-    })  
+    }) 
   }
 
   chatUser(user){

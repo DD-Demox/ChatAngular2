@@ -96,15 +96,7 @@ export class ChatUserComponent {
     }
     
   }
-
-  private sortFunction(a, b) {
-    if (a[0].id === b[0].id) {
-        return 0;
-    }
-    else {
-        return (a[0].id < b[0].id) ? -1 : 1;
-    }
-}
+  
   scrollToBottom(): void {
     try {
         this.myScrollContainer.nativeElement.scrollTop = this.myScrollContainer.nativeElement.scrollHeight;

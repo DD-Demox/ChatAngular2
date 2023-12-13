@@ -879,6 +879,134 @@
       "img": "https://nextbootstrap.netlify.app/assets/images/profiles/3.jpg",
       "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
       "id": 109
+    },
+    {
+      "to": "Clara",
+      "from": "Roberto",
+      "message": "ola",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "id": 110
+    },
+    {
+      "to": "Roberto",
+      "from": "Clara",
+      "message": "oi",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "id": 111
+    },
+    {
+      "to": "Clara",
+      "from": "Roberto",
+      "message": "ola",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "id": 112
+    },
+    {
+      "to": "Roberto",
+      "from": "Clara",
+      "message": "oi",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "id": 113
+    },
+    {
+      "to": "Clara",
+      "from": "Roberto",
+      "message": "ola",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "id": 114
+    },
+    {
+      "to": "Roberto",
+      "from": "Clara",
+      "message": "Tudo bem?",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "id": 115
+    },
+    {
+      "to": "Clara",
+      "from": "Roberto",
+      "message": "Tudo de boa",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "id": 116
+    },
+    {
+      "to": "Clara",
+      "from": "Roberto",
+      "message": "funcionando uma maravilha",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "id": 117
+    },
+    {
+      "to": "Clara",
+      "from": "Roberto",
+      "message": "testando varias funcionalidades",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "id": 118
+    },
+    {
+      "to": "Clara",
+      "from": "Amelia",
+      "message": "oi clara, tudo bem?",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/3.jpg",
+      "id": 119
+    },
+    {
+      "to": "Amelia",
+      "from": "Clara",
+      "message": "tudo de boa",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/3.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "id": 120
+    },
+    {
+      "to": "Roberto",
+      "from": "Clara",
+      "message": "q bom q esta funcionando",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "id": 121
+    },
+    {
+      "to": "Clara",
+      "from": "Roberto",
+      "message": "teste",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "id": 122
+    },
+    {
+      "to": "Clara",
+      "from": "Roberto",
+      "message": "teste scroll",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "id": 123
+    },
+    {
+      "to": "Clara",
+      "from": "Roberto",
+      "message": "Teste 321",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "id": 124
+    },
+    {
+      "to": "Roberto",
+      "from": "Clara",
+      "message": "Teste 123",
+      "img": "https://nextbootstrap.netlify.app/assets/images/profiles/1.jpg",
+      "imgFrom": "https://nextbootstrap.netlify.app/assets/images/profiles/2.jpg",
+      "id": 125
     }
   ]
 }

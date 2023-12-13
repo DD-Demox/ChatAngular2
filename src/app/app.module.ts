@@ -8,6 +8,8 @@ import { ChatListComponent } from './chat-list/chat-list.component';
 import { ChatUserComponent } from './chat-user/chat-user.component';
 import { LoginChatComponent } from './login-chat/login-chat.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { MessageService } from './message.service';
+import { ChatserviceService } from './chatservice.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +25,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     FormsModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [MessageService,ChatserviceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
